@@ -1,0 +1,48 @@
+###
+POST http://localhost:8800/api/auth/register
+Content-Type: application/json
+
+{
+    "username":"ASASA",
+    "email":"nanang@mail",
+    "password":"hirate"
+}
+
+###
+POST http://localhost:8800/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"ASASA",
+    "email":"nanang@mail",
+    "password":"hirate"
+}
+
+###
+GET http://localhost:8800/api/auth/
+
+###
+PUT http://localhost:8800/api/user/1
+Content-Type: application/json
+
+{
+    "username":"Yurina",
+    "email":"hirat@",
+    "password":"Jepara"
+}
+
+###
+GET http://localhost:8800/api/user
+Cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaXNBZG1pbiI6MSwiaWF0IjoxNjcwMjMwOTcwfQ.LGqwetN9Hengw6v4UtVSrYSc8p3vUFDhEA-vrG20gVo
+
+###
+GET http://localhost:8800/api/user/4
+
+###
+DELETE  http://localhost:8800/api/user/3
+
+###
+GET http://localhost:8800/api/user/auth/1
+Cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaXNBZG1pbiI6MCwiaWF0IjoxNjcwMjMwNzQyfQ.C7tpbewBGZi9yQ8sS9U_88G11QX02cpieowqVa8Ovd4
+
+###
